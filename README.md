@@ -1,5 +1,5 @@
 # Epidemic_Spreading_Vaccination_Opinion_Dynamics
-C code to simulate the model presented in our paper 
+The main file is opinion_epidemic_phase_transition_lambda.c. It is a C code to simulate the model presented in our paper 
 "Dynamics of epidemic spreading with vaccination: impact of social pressure and engagement"
 
 For more details see 
