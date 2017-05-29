@@ -71,6 +71,7 @@ int main()
     double auxA,auxB;
     double r,num;
 
+    srand(time(NULL));
 
     FILE *fp,*fq;
     char out_name[100],out_name2[100];
@@ -84,9 +85,7 @@ int main()
     for( lambda = 0 ; lambda<=1.0 ; lambda+=dlam  )
     {
         printf("lambda %3.2lf\n",lambda);
-
-        srand(time(NULL));
-
+        
         for(t=0; t<tmax; t++)
         {
             S[t]=0.0;
